@@ -1,0 +1,55 @@
+body{
+    font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5rem;
+}
+
+p{
+    padding-left: 1.5rem;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: Georgia, serif;
+}
+
+
+
+#first-level{
+    list-style-type: square;
+}
+
+#first-level ul{
+    list-style-type:disc;
+}
+
+#first-level ul ul{
+    list-style-type:circle;
+}
+
+table{
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+  }  
+
+thead{
+    background-color: lightgray;
+    font-weight: bold;
+}
+
+blockquote{
+    border-left: 3px solid rgb(221,221,221);
+    font-style: italic;
+}
+
+blockquote p{
+    padding-left: 1.5rem;
+}
+
+#author{
+    text-align: right;
+}
+
